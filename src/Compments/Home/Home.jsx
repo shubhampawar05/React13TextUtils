@@ -9,9 +9,9 @@ function Home({ text, dispatch }) {
   };
 
   return (
-    <div className="w-full ">
-      <div className="max-w-screen-xl mx-auto">
-        <h1 className="text-4xl text-center mt-32 font-semibold mb-8">TextUtis - Word Counter, Charecter Counter, Remove Extra Space</h1>
+    <div className="w-full dark:bg-slate-600 ">
+      <div className="max-w-screen-xl mx-auto dark:text-white">
+        <h1 className="text-4xl text-center pt-32 font-semibold pb-8 ">TextUtis - Word Counter, Charecter Counter, Remove Extra Space</h1>
         <div>
           <p className="text-xl font-semibold py-2">Enter Your Text Here:</p>
           <textarea
